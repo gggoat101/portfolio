@@ -1,1 +1,26 @@
 <h1>My name is Seth and this is my Portfolio</h1> 
+// generateReadme.js
+const fs = require('fs');
+
+const content = `
+# 👋 Hi, I'm Seth
+
+- 🎓 I'm 19 years old with a certificate in **3D Printing and Design**
+- 🏢 I have 9 months of work experience at **Kneaders Bakery & Café**
+- 🛠️ I'm passionate about hands-on creation, design, and tech workflows
+- 🌐 Currently building my GitHub presence and exploring new projects
+
+---
+
+### 📫 Connect with me
+- GitHub: [your-username](https://github.com/your-username)
+- Twitch: [your-twitch-handle](https://twitch.tv/your-twitch-handle)
+- Etsy: [your-etsy-shop](https://etsy.com/shop/your-etsy-shop)
+
+> “Design is where science and art break even.” – Robin Mathews
+`;
+
+fs.writeFile('README.md', content.trim(), (err) => {
+  if (err) throw err;
+  console.log('✅ README.md created successfully!');
+});

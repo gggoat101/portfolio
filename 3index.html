@@ -2,114 +2,95 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Home | Seth's Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Seth's Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    nav {
+      background: #357ab8;
+      display: flex;
+      justify-content: center;
+      padding: 0.75rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>👋 Welcome to Seth's Portfolio</h1>
-    <nav class="menu">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-    </nav>
+    <h1>👋 Hi, I'm Seth</h1>
+    <p>Creative | Technical | Community-Driven</p>
   </header>
 
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#info">Info</a>
+  </nav>
+
   <main>
-    <section>
-      <h2>🎮 Creator | Designer | Streamer</h2>
-      <p>I'm Seth, a 19-year-old with a certificate in 3D Printing & Design. I love building custom gear, optimizing workflows, and connecting with my Twitch community.</p>
+    <section id="home">
+      <h2>🏠 About Me</h2>
+      <p>I'm 19 years old and hold a certificate in <strong>3D Printing and Design</strong>. I love blending creativity with hands-on tech to build cool stuff—especially for gamers and streamers.</p>
+      <p>I worked for <strong>Kneaders Bakery & Café</strong> for 9 months, where I developed strong customer service skills, time management, and teamwork in a fast-paced environment.</p>
+    </section>
+
+    <section id="info">
+      <h2>📂 Info</h2>
+      <p>I’ve contributed to the accessibility-focused company <strong>Be My Eyes</strong>, helping connect volunteers with visually impaired users through tech-driven support.</p>
+      <p>I'm also a huge sports fan—especially football. I played competitively and still carry that team-first mindset into everything I do.</p>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Seth. Built with ❤️ in Castle Rock, CO.</p>
   </footer>
+
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>About | Seth's Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>📄 About Me</h1>
-    <nav class="menu">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-    </nav>
-  </header>
-
-  <main>
-    <section>
-      <h2>🧠 Background</h2>
-      <p>I'm Seth, 19 years old, certified in 3D Printing & Design. I specialize in CAD modeling, printer maintenance, and prototyping.</p>
-
-      <h2>🏢 Work Experience</h2>
-      <p>9 months at Kneaders Bakery & Café, building customer service, teamwork, and time management skills.</p>
-
-      <h2>🎯 Goals</h2>
-      <p>I'm focused on streamlining my Etsy shop, refining branding, and integrating technical workflows for creative projects.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Seth. Thanks for visiting!</p>
-  </footer>
-</body>
-</html>
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #f4f6f8;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background: #4a90e2;
-  color: white;
-  padding: 1.5rem;
-  text-align: center;
-}
-
-.menu {
-  margin-top: 1rem;
-}
-
-.menu a {
-  margin: 0 1rem;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.menu a:hover {
-  text-decoration: underline;
-}
-
-main {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-}
-
-section {
-  margin-bottom: 2rem;
-}
-
-h1, h2 {
-  color: #2c3e50;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  color: #777;
-}
